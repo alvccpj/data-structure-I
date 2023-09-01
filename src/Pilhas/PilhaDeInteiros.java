@@ -1,3 +1,5 @@
+package Pilhas;
+
 import java.util.Stack;
 
 public class PilhaDeInteiros {
