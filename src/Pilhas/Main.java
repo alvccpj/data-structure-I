@@ -2,7 +2,7 @@ package Pilhas;
 
 public class Main {
     public static void main(String[] args) {
-        PilhaEstatica pilha = new PilhaEstatica(5); 
+        PilhaEstatica pilha = new PilhaEstatica(); 
 
         pilha.push(10); 
         pilha.push(20); 

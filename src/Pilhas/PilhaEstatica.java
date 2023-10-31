@@ -2,17 +2,15 @@ package Pilhas;
 
 public class PilhaEstatica {
     int[] elements;
-    int size;
     int top;
 
-    public PilhaEstatica (int size) {
-        this.elements = new int[size];
-        this.size = size;
+    public PilhaEstatica () {
+        this.elements = new int[10];
         this.top = -1;
     }
 
     public void push (int value) {
-        if (top < size - 1) {
+        if (top < elements.length - 1) {
             top++;
             elements[top] = value;
         } else {
@@ -32,6 +30,14 @@ public class PilhaEstatica {
 
     public boolean isEmpty () {
         if (top == -1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public boolean isFull () {
+        if (top == 9) {
             return true;
         } else {
             return false;
