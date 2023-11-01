@@ -1,4 +1,4 @@
-package Filas;
+package Queues;
 
 public class FilaEstatica {
     int[] elements;
