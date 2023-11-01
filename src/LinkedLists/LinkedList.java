@@ -1,9 +1,9 @@
 package LinkedLists;
 
-public class ListaEncadeada {
+public class LinkedList {
     private Node head;
 
-    public ListaEncadeada() {
+    public LinkedList() {
         this.head = null;
     }
 
